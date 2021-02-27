@@ -98,7 +98,7 @@ def parse_comand_line():
 
     # -d or --debug: print all pubsub messagessent
     parser.add_option(
-        "-o", "--output", help="Output file (nifti)", default="sample.nii"
+        "-o", "--output", help="Output file (nifti)", default="panoramic.nii"
     )
     parser.add_option(
         "-d",
