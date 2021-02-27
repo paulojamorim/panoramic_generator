@@ -11,9 +11,9 @@ Source code from paper [Reconstruction of Panoramic Dental Images Through Bézie
 
 ## Running
 
-```
-python panoramic_generator.py file.hdf5 [options]
+`python panoramic_generator.py file.hdf5 [options]`
 
+```
 Options:
   -h, --help            show this help message and exit
   -o OUTPUT, --output=OUTPUT
