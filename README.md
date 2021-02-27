@@ -5,6 +5,10 @@ Source code from paper [Reconstruction of Panoramic Dental Images Through Bézie
 
 `pip install h5py imageio matplotlib nibabel numpy scipy scikit-image Cython`
 
+### Compile Cython code:
+
+`python setup.py build_ext --inplace`
+
 ## Running
 
 ```
@@ -44,7 +48,7 @@ Download and install the [InVesalius](https://github.com/invesalius/invesalius3/
 
 2. On Menubar. File -> Import other files -> NIfTI 1
 
-3. import your generated .nii file (default is panoramic.nii)
+3. Import your generated .nii file (default is panoramic.nii) and visualize.
 
 ## Citation
 
